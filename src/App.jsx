@@ -1,6 +1,6 @@
 import { useState } from "react"
 import "./style.css"
-
+// first change in commit
 export default function App() {
     const[newItem, setNewItem] = useState("")
     const[todos, setTodos] = useState([])
